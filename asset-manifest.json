@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/plan-estudios-unsaac/static/css/main.e6c13ad2.css",
+    "main.js": "/plan-estudios-unsaac/static/js/main.f8686dab.js",
+    "static/js/787.f510f4f1.chunk.js": "/plan-estudios-unsaac/static/js/787.f510f4f1.chunk.js",
+    "index.html": "/plan-estudios-unsaac/index.html",
+    "main.e6c13ad2.css.map": "/plan-estudios-unsaac/static/css/main.e6c13ad2.css.map",
+    "main.f8686dab.js.map": "/plan-estudios-unsaac/static/js/main.f8686dab.js.map",
+    "787.f510f4f1.chunk.js.map": "/plan-estudios-unsaac/static/js/787.f510f4f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f8686dab.js"
+  ]
+}
