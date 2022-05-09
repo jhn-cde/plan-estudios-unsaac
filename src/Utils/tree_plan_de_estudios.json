@@ -1,0 +1,836 @@
+{
+  "name": "IF",
+  "title": "Ingenieria Informatica y de Sistemas",
+  "children": [
+    {
+      "name": "EG",
+      "requerido": 35,
+      "Children": [
+        {
+          "name": "LO901",
+          "attributes": {
+            "title":"Redaccion de Textos",
+            "creditos":4,
+            "categoria":"EG",
+            "requisitos":[]
+          }
+        },
+        {
+          "name": "ME901",
+          "attributes": {
+            "title":"Matematica I",
+            "creditos":4,
+            "categoria":"EG",
+            "requisitos":[]
+          }
+        },
+        {
+          "name": "ME903",
+          "attributes": {
+            "title":"Calculo I",
+            "creditos":4,
+            "categoria":"EG",
+            "requisitos":["ME901"]
+          }
+        },
+        {
+          "name": "AS901",
+          "attributes": {
+            "title":"Sociedad y Cultura",
+            "creditos":3,
+            "categoria":"EG",
+            "requisitos":["ME901"]
+          }
+        },
+        {
+          "name": "ED901",
+          "attributes": {
+            "title":"Estrategias de Aprendizaje Automatico",
+            "creditos":4,
+            "categoria":"EG",
+            "requisitos":[]
+          }
+        },
+        {
+          "name": "FP901",
+          "attributes": {
+            "title":"Filosofia y Etica",
+            "creditos":3,
+            "categoria":"EG",
+            "requisitos":[]
+            }
+        },
+        {
+          "name": "DR901",
+          "attributes": {
+            "title":"Constitucion Politica y Derechos Humanos",
+            "creditos":3,
+            "categoria":"EG",
+            "requisitos":[]
+          }
+        },
+        {
+          "name": "FI902",
+          "attributes": {
+            "title":"Fisica I",
+            "creditos":4,
+            "categoria":"EG",
+            "requisitos":[]
+          }
+        },
+        {
+          "name": "IF902",
+          "attributes": {
+            "title":"Tecnologias de la Informacion y la Comunicacion",
+            "creditos":3,
+            "categoria":"EG",
+            "requisitos":[]
+          }
+        },
+        {
+          "name": "FP902",
+          "attributes": {
+            "title":"Liderazgo y Habilidades Sociales",
+            "creditos":3,
+            "categoria":"EG",
+            "requisitos":[]
+          }
+        }
+      ]
+    },
+    {
+      "name": "OE",
+      "requerido": 124,
+      "Children": [
+        {
+          "name": "IF468",
+          "attributes": {
+            "title":"Fundamentos de Programacion",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":[]
+          }
+        },
+        {
+          "name": "ME307",
+          "attributes": {
+            "title":"Matematicas Discretas I",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":[]
+          }
+        },
+        {
+          "name": "IF450",
+          "attributes": {
+            "title":"Abstraccion de Datos y Objetos",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF468"]
+          }
+        },
+        {
+          "name": "ME351",
+          "attributes": {
+            "title":"Algebra Lineal Computacional",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["ME307","IF468"]
+          }
+        },
+        {
+          "name": "FI370",
+          "attributes": {
+            "title":"Fisica Aplicada a la Informatica",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["FI902"]
+          }
+        },
+        {
+          "name": "ME350",
+          "attributes": {
+            "title":"Calculo II",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["ME903"]
+          }
+        },
+        {
+          "name": "ME352",
+          "attributes": {
+            "title":"Probabilidades y Estadistica",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["ME903"]
+          }
+        },
+        {
+          "name": "IF451",
+          "attributes": {
+            "title":"Programacion I",
+            "creditos":2,
+            "categoria":"OE",
+            "requisitos":["IF468"]
+          }
+        },
+        {
+          "name": "IF452",
+          "attributes": {
+            "title":"Algoritmos y Estructura de Datos",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF450"]
+          }
+        },
+        {
+          "name": "ME354",
+          "attributes": {
+            "title":"Investigacion Operativa",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["ME351"]
+          }
+        },
+        {
+          "name": "ME355",
+          "attributes": {
+            "title":"Matematicas Discretas II",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["ME307"]
+          }
+        },
+        {
+          "name": "LI371",
+          "attributes": {
+            "title":"Electronica y Diseño Digital",
+            "creditos":3,
+            "categoria":"OE",
+            "requisitos":["FI370"]
+          }
+        },
+        {
+          "name": "IF480",
+          "attributes": {
+            "title":"Administracion de tecnologias de la Informacion",
+            "creditos":3,
+            "categoria":"OE",
+            "requisitos":["ME352"]
+          }
+        },
+        {
+          "name": "IF453",
+          "attributes": {
+            "title":"Programacion II",
+            "creditos":2,
+            "categoria":"OE",
+            "requisitos":["IF451"]
+          }
+        },
+        {
+          "name": "IF650",
+          "attributes": {
+            "title":"Modelos Probabilisticos",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["ME352"]
+          }
+        },
+        {
+          "name": "IF454",
+          "attributes": {
+            "title":"Teoria de la Computacion",
+            "creditos":3,
+            "categoria":"OE",
+            "requisitos":["ME355","IF451"]
+          }
+        },
+        {
+          "name": "IF610",
+          "attributes": {
+            "title":"Analisis y Diseño de Sistemas de Informacion",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF450","IF480"]
+          }
+        },
+        {
+          "name": "IF550",
+          "attributes": {
+            "title":"Organizacion y Arquitectura del Computador",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["LI371"]
+          }
+        },
+        {
+          "name": "IF481",
+          "attributes": {
+            "title":"Ingenieria Economica",
+            "creditos":3,
+            "categoria":"OE",
+            "requisitos":["IF480"]
+          }
+        },
+        {
+          "name": "ME356",
+          "attributes": {
+            "title":"Ecuaciones Diferenciales",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["ME350"]
+          }
+        },
+        {
+          "name": "IF455",
+          "attributes": {
+            "title":"Algoritmos Paralelos y Distribuidos",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF452"]
+          }
+        },
+        {
+          "name": "IF611",
+          "attributes": {
+            "title":"Metodologia de Desarrollo de Software",
+            "creditos":3,
+            "categoria":"OE",
+            "requisitos":["IF610"]
+          }
+        },
+        {
+          "name": "IF612",
+          "attributes": {
+            "title":"Fundamentos y Diseño de Bases de Datos",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF610"]
+          }
+        },
+        {
+          "name": "IF551",
+          "attributes": {
+            "title":"Sistemas Operativos",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF550"]
+          }
+        },
+        {
+          "name": "IF457",
+          "attributes": {
+            "title":"Metodos Numericos",
+            "creditos":3,
+            "categoria":"OE",
+            "requisitos":["ME356"]
+          }
+        },
+        {
+          "name": "IF456",
+          "attributes": {
+            "title":"Algoritmos Avanzados",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF468"]
+          }
+        },
+        {
+          "name": "IF651",
+          "attributes": {
+            "title":"Inteligencia Artificial",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF650","IF612"]
+          }
+        },
+        {
+          "name": "IF613",
+          "attributes": {
+            "title":"Desarrollo de Software I",
+            "creditos":2,
+            "categoria":"OE",
+            "requisitos":["IF612"]
+          }
+        },
+        {
+          "name": "IF552",
+          "attributes": {
+            "title":"Redes de Computadoras I",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF551"]
+          }
+        },
+        {
+          "name": "IF710",
+          "attributes": {
+            "title":"Seminario de Investigacion I",
+            "creditos":3,
+            "categoria":"OE",
+            "requisitos":["CRE_150"]
+          }
+        },
+        {
+          "name": "IF652",
+          "attributes": {
+            "title":"Aprendizaje Automatico",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF651"]
+          }
+        },
+        {
+          "name": "IF614",
+          "attributes": {
+            "title":"Ingenieria de Software I",
+            "creditos":4,
+            "categoria":"OE",
+            "requisitos":["IF613","IF611"]
+          }
+        },
+        {
+          "name": "IF482",
+          "attributes": {
+            "title":"Planeamiento y Direccion Estrategica de Tecnologias de Informacion",
+            "creditos":3,
+            "categoria":"OE",
+            "requisitos":["CRE_140"]
+          }
+        },
+        {
+          "name": "IF483",
+          "attributes": {
+            "title":"Formulacion de Proyectos de Tecnologia de Informacion",
+            "creditos":3,
+            "categoria":"OE",
+            "requisitos":["IF482"]
+          }
+        },
+        {
+          "name": "IF711",
+          "attributes": {
+            "title":"Seminario de Investigacion II",
+            "creditos":3,
+            "categoria":"OE",
+            "requisitos":["IF710"]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EE",
+      "requerido": 45,
+      "Children": [
+        {
+          "name": "ME357",
+          "attributes": {
+            "title":"Matematicas Avanzadas para Ingenieria",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["ME350"]
+          }
+        },
+        {
+          "name": "IF653",
+          "attributes": {
+            "title":"Mineria de Datos",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF652"]
+          }
+        },
+        {
+          "name": "IF658",
+          "attributes": {
+            "title":"Redes Neuronales Artificiales",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF652"]
+          }
+        },
+        {
+          "name": "IF659",
+          "attributes": {
+            "title":"Redes Bayesianas",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF652"]
+          }
+        },
+        {
+          "name": "IF662",
+          "attributes": {
+            "title":"Deep Learning",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF652"]
+          }
+        },
+        {
+          "name": "IF654",
+          "attributes": {
+            "title":"Robotica",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF651"]
+          }
+        },
+        {
+          "name": "IF655",
+          "attributes": {
+            "title":"Procesamiento Digital de Señales",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF651"]
+          }
+        },
+        {
+          "name": "IF656",
+          "attributes": {
+            "title":"Procesamiento del Lenguaje Natural",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF651"]
+          }
+        },
+        {
+          "name": "IF657",
+          "attributes": {
+            "title":"Vision Computacional",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF651"]
+          }
+        },
+        {
+          "name": "IF661",
+          "attributes": {
+            "title":"Busqueda Heuristica y Metaheuristica",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF651"]
+          }
+        },
+        {
+          "name": "IF663",
+          "attributes": {
+            "title":"Interaccion Persona Computador",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF651"]
+          }
+        },
+        {
+          "name": "IF664",
+          "attributes": {
+            "title":"Bioinformatica",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF650"]
+          }
+        },
+        {
+          "name": "IF665",
+          "attributes": {
+            "title":"Modelado y Simulacion de Estructuras Biomoleculares",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF664"]
+          }
+        },
+        {
+          "name": "IF666",
+          "attributes": {
+            "title":"Estadistica para Bioinformatica y Diseño Experimental",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF664"]
+          }
+        },
+        {
+          "name": "IF667",
+          "attributes": {
+            "title":"Analisis de Imagenes Biomedicas en 2D y 3D",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF664"]
+          }
+        },
+        {
+          "name": "IF668",
+          "attributes": {
+            "title":"Analisis de Datos de Expresion Genica",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF664"]
+          }
+        },
+        {
+          "name": "IF669",
+          "attributes": {
+            "title":"Modelado y Simulacion",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF650"]
+          }
+        },
+        {
+          "name": "ME358",
+          "attributes": {
+            "title":"Estadistica Inferencial",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["ME352"]
+          }
+        },
+        {
+          "name": "ME359",
+          "attributes": {
+            "title":"Estadistica Aplicada",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["ME352"]
+          }
+        },
+        {
+          "name": "IF554",
+          "attributes": {
+            "title":"Redes de Computadoras II",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF552"]
+          }
+        },
+        {
+          "name": "IF555",
+          "attributes": {
+            "title":"Topicos Avanzados en redes",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF554"]
+          }
+        },
+        {
+          "name": "IF557",
+          "attributes": {
+            "title":"Arquitecturas de Alto Rendimiento",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF554"]
+          }
+        },
+        {
+          "name": "IF556",
+          "attributes": {
+            "title":"Sistemas Embebidos",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF551"]
+          }
+        },
+        {
+          "name": "IF553",
+          "attributes": {
+            "title":"Lenguaje Ensamblador",
+            "creditos":3,
+            "categoria":"EE",
+            "requisitos":["IF550"]
+          }
+        },
+        {
+          "name": "IF458",
+          "attributes": {
+            "title":"Computacion Grafica",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF452"]
+          }
+        },
+        {
+          "name": "IF459",
+          "attributes": {
+            "title":"Computacion Grafica II",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF458"]
+          }
+        },
+        {
+          "name": "IF467",
+          "attributes": {
+            "title":"Analisis y Diseño de Algoritmos",
+            "creditos":3,
+            "categoria":"EE",
+            "requisitos":["IF452","IF453"]
+          }
+        },
+        {
+          "name": "IF617",
+          "attributes": {
+            "title":"Ingenieria de Software II",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF614"]
+          }
+        },
+        {
+          "name": "IF618",
+          "attributes": {
+            "title":"Topicos Avanzados de Ingenieria de Software",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF614"]
+          }
+        },
+        {
+          "name": "IF619",
+          "attributes": {
+            "title":"Analisis de Datos Empresariales",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF612","ME352"]
+          }
+        },
+        {
+          "name": "IF460",
+          "attributes": {
+            "title":"Computacion Cuantica",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF456"]
+          }
+        },
+        {
+          "name": "IF465",
+          "attributes": {
+            "title":"Geometria Computacional",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF454"]
+          }
+        },
+        {
+          "name": "IF466",
+          "attributes": {
+            "title":"Compiladores",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF454"]
+          }
+        },
+        {
+          "name": "IF464",
+          "attributes": {
+            "title":"Computacion Simbolica",
+            "creditos":4,
+            "categoria":"EE",
+            "requisitos":["IF466"]
+          }
+        },
+        {
+          "name": "IF485",
+          "attributes": {
+            "title":"Control y Auditoria de Sistemas",
+            "creditos":3,
+            "categoria":"EE",
+            "requisitos":["IF483"]
+          }
+        },
+        {
+          "name": "IF484",
+          "attributes": {
+            "title":"Emprendimienton e Innovacion",
+            "creditos":3,
+            "categoria":"EE",
+            "requisitos":["IF482"]
+          }
+        }
+      ]
+    },
+    {
+      "name": "AEX",
+      "requerido": 6,
+      "Children": [
+        {
+          "name": "IF064",
+          "attributes": {
+            "title":"Taller de Debate",
+            "creditos":2,
+            "categoria":"AEX",
+            "requisitos":["CRE_170"]
+          }
+        },
+        {
+          "name": "IF065",
+          "attributes": {
+            "title":"Taller de Creatividad Musical",
+            "creditos":2,
+            "categoria":"AEX",
+            "requisitos":["CRE_170"]
+          }
+        },
+        {
+          "name": "IF066",
+          "attributes": {
+            "title":"Teatro",
+            "creditos":2,
+            "categoria":"AEX",
+            "requisitos":["CRE_170"]
+          }
+        },{
+          "name": "IF062",
+          "attributes": {
+            "title":"Danza Moderna",
+            "creditos":2,
+            "categoria":"AEX",
+            "requisitos":["CRE_100"]
+          }
+        },
+        {
+          "name": "IF063",
+          "attributes": {
+            "title":"Quechua",
+            "creditos":2,
+            "categoria":"AEX",
+            "requisitos":["CRE_100"]
+          }
+        },
+        {
+          "name": "IF060",
+          "attributes": {
+            "title":"Musica",
+            "creditos":2,
+            "categoria":"AEX",
+            "requisitos":["CRE_60"]
+          }
+        },
+        {
+          "name": "IF061",
+          "attributes": {
+            "title":"Coro",
+            "creditos":2,
+            "categoria":"AEX",
+            "requisitos":["CRE_60"]
+          }
+        }
+      ]
+    },
+    {
+      "name": "PP",
+      "requerido": 9,
+      "Children": [
+        {
+          "name": "IF020",
+          "attributes": {
+            "title":"Practicas Pre-Profesionales",
+            "creditos":9,
+            "categoria":"PP",
+            "requisitos":["CRE_200"]
+          }
+        }
+      ]
+    }
+  ]
+}
